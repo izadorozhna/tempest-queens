@@ -1,0 +1,7 @@
+---
+features:
+  - A new config option in group compute-feature-enabled
+    boot_from_volume which specifies if nova allow to boot
+    instances from volume. This functionality is not available
+    on some hypervisors and cinder backends like ironic and
+    ceph.
